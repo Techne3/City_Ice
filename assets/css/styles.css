@@ -6,7 +6,7 @@
   --header-height: 3rem;
 
   /*========== Colors ==========*/
-  --first-color: #067e9c;
+  --first-color: #067f9d;
   --first-color-alt: #088fb1;
   --title-color: #393939;
   --text-color: #707070;
@@ -105,6 +105,7 @@ a{
 img{
   max-width: 100%;
   height: auto;
+  border-radius: 1.5%;
 }
 
 /*========== CLASS CSS ==========*/
@@ -226,7 +227,7 @@ img{
   justify-content: center;
   align-items: center;
   padding: .3rem;
-  background: rgba(6,156,84,.5);
+  background: rgba(6, 126, 156, 0.61);
   border-radius: .4rem;
   z-index: var(--z-tooltip);
   transition: .4s;
@@ -251,7 +252,7 @@ img{
 /*========== HOME ==========*/
 .home__container{
   /* height: calc(100vh - 3rem); */
-  height: 40vh;
+  height: calc(80vh - 3rem);
  align-content: center;
  justify-items: center;
 }
@@ -411,8 +412,10 @@ img{
 
 /*========== FOOTER ==========*/
 .footer__container{
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  row-gap: 2rem;
+    display: flex; 
+   justify-content: space-between;
+  /* grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  row-gap: 2rem; */
 }
 
 .footer__logo{
