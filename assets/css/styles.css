@@ -97,6 +97,16 @@ ul{
   padding: 0;
   list-style: none;
 }
+.uses{
+    padding:0;
+    list-style: inside;
+}
+.uses li{
+    padding:.6rem;
+}
+.uses li:last-child{
+    margin-bottom: 2rem;
+}
 
 a{
   text-decoration: none;
@@ -255,6 +265,7 @@ img{
   height: calc(80vh - 3rem);
  align-content: center;
  justify-items: center;
+ flex-direction: column-reverse;
 }
 
 .home__title{
@@ -271,6 +282,7 @@ img{
 
 .home__img{
   width: 100%;
+  height: 20rem;
   justify-self: center;
 }
 
