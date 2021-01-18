@@ -103,6 +103,7 @@ ul{
 }
 .uses li{
     padding:.6rem;
+    text-align: left;
 }
 .uses li:last-child{
     margin-bottom: 2rem;
@@ -262,7 +263,7 @@ img{
 /*========== HOME ==========*/
 .home__container{
   /* height: calc(100vh - 3rem); */
-  height: calc(80vh - 3rem);
+  height: calc(90vh - 1rem);
  align-content: center;
  justify-items: center;
  flex-direction: column-reverse;
@@ -321,9 +322,17 @@ img{
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
+
 .services__content{
   text-align: center;
+    justify-content: center;
+    align-items: center;
 }
+.products img{
+    height:175px;
+    width:175px;
+}
+
 
 .services__img{
   width: 64px;
